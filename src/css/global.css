@@ -1,0 +1,48 @@
+/* dark light mode */
+:root{
+    --background-color-primary: #ebebeb;
+    --background-color-secondary: #fafafa;
+    --accent-color: #cacaca;
+    --text-primary-color: #222;
+    --element-size: 4rem;
+}
+
+.dark{
+    --background-color-primary: #1e1e1e;
+    --background-color-secondary: #2d2d30;
+    --accent-color: #3f3f3f;
+    --text-primary-color: #ddd;
+}
+
+html{
+    background-color: var(--background-color-primary);;
+    color: var(--text-primary-color);
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Data Table */
+.dt-search{
+    margin-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ebebeb;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #cacaca;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #cacaca;
+}
