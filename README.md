@@ -1,6 +1,6 @@
 # Overview - Call Insights
 
-Call Insights is a web application that allows users to upload a CSV file, prepocess file and display the results and statistics of the data in the dashboard.
+Call Insights is a web application that allows users to upload a CSV file, preprocess file and display the results and statistics of the data in the dashboard.
 
 ## Tools and Technology used
 
